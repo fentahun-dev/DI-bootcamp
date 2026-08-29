@@ -1,4 +1,4 @@
-print("hello world")
+print("hello world" * 4)
 result = (99 ** 3) * 8
 print(result)
 print(15 < 8 )
