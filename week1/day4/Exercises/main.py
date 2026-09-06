@@ -3,7 +3,7 @@
 my_fav_numbers = {1,2,3,4}
 my_fav_numbers.update(5,6)
 my_fav_numbers.remove(6)
-friend_fav-numbers = {12,14,7,8 }
+friend_fav_numbers = {12,14,7,8 }
 our_fav_numbers = my_fav_numbers | friend_fav_numbers
 
 tupel_numbers = (7,8,9)
@@ -52,7 +52,7 @@ while True:
     print("Thank you!")
 
 
- fruits = input("Enter your favourite fruits:").splite()
+ fruits = input("Enter your favourite fruits:").split()
 fruit = input("Choose one fruit:")
 if fruit in fruits:
   print("You chose one of your favorite fruits! Enjoy!")
@@ -63,7 +63,7 @@ pizza_topping = []
 while True:
   pizza_topping = input ("Enter a pizza topping:")
   if pizza_topping == "quite":
-    break
+       break
     pizza_toppings.append(pizza_topping)
     print(f"Adding {pizza_topping} to your pizza")
     
