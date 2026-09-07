@@ -12,7 +12,8 @@ print(tupel_numbers) # not changed tupel is immutable
 
 
 basket = ["Banana", "Apples", "Oranges", "Blueberries"]
-basket.remove("banana","Blueberries")
+basket.remove("banana")
+basket.remove("Blueberries")
 basket.insert( 0,"Apples" )
 basket.append("Kiwi")
 print(basket_counts[Apples])
