@@ -1,0 +1,16 @@
+user_input = input("Enter string ")
+  if len(user_input) < 10:
+      print("String not long enough")
+  elif len(user_input) > 10:
+      print("String too long ")
+  else:
+        print("Perfect string")
+print("First character:",user_input[0])    
+print("Last character:",user_input[-1])  
+        
+    
+ word = ""
+ for character in "Hello World":
+    word += character
+    print(word)
+        
