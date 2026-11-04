@@ -1,8 +1,6 @@
 
-print("Hello World " *4 )
 
-print("I Love Python" *4)
-
+print(("Hello world\n" * 4) + ("I love python\n" *4))
 
 month = int (input ("Enter month(1-12):"))
 if month in [12,1,2]:
