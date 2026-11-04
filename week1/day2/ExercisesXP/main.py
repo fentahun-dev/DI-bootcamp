@@ -1,4 +1,4 @@
-print("hello world" * 4)
+print(("Hello world \n " * 4))
 
 result = (99 ** 3) * 8
 print(result)
